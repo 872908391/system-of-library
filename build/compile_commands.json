@@ -1,0 +1,12 @@
+[
+{
+  "directory": "H:/CODE/Codefiled_c++/Library/build",
+  "command": "D:\\Vscode_GCC\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/Library.dir/includes_CXX.rsp -g -o CMakeFiles\\Library.dir\\src\\boo.obj -c H:\\CODE\\Codefiled_c++\\Library\\src\\boo.cpp",
+  "file": "H:/CODE/Codefiled_c++/Library/src/boo.cpp"
+},
+{
+  "directory": "H:/CODE/Codefiled_c++/Library/build",
+  "command": "D:\\Vscode_GCC\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/Library.dir/includes_CXX.rsp -g -o CMakeFiles\\Library.dir\\main.obj -c H:\\CODE\\Codefiled_c++\\Library\\main.cpp",
+  "file": "H:/CODE/Codefiled_c++/Library/main.cpp"
+}
+]

@@ -1,0 +1,5 @@
+project(SortMake)
+aux_source_directory(src SRC_SUB)
+aux_source_directory(. SRC_CUR)
+add_executable(Library ${SRC_SUB} ${SRC_CUR})
+include_directories(include)
