@@ -144,19 +144,19 @@ main.s:
 .PHONY : main.s
 
 # target to build an object file
-src/boo.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/boo.obj
-.PHONY : src/boo.obj
+src/book.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/book.obj
+.PHONY : src/book.obj
 
 # target to preprocess a source file
-src/boo.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/boo.i
-.PHONY : src/boo.i
+src/book.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/book.i
+.PHONY : src/book.i
 
 # target to generate assembly for a file
-src/boo.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/boo.s
-.PHONY : src/boo.s
+src/book.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/book.s
+.PHONY : src/book.s
 
 # Help Target
 help:
@@ -170,9 +170,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/boo.obj
-	@echo ... src/boo.i
-	@echo ... src/boo.s
+	@echo ... src/book.obj
+	@echo ... src/book.i
+	@echo ... src/book.s
 .PHONY : help
 
 

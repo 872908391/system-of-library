@@ -1,8 +1,8 @@
 [
 {
   "directory": "H:/CODE/Codefiled_c++/Library/build",
-  "command": "D:\\Vscode_GCC\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/Library.dir/includes_CXX.rsp -g -o CMakeFiles\\Library.dir\\src\\boo.obj -c H:\\CODE\\Codefiled_c++\\Library\\src\\boo.cpp",
-  "file": "H:/CODE/Codefiled_c++/Library/src/boo.cpp"
+  "command": "D:\\Vscode_GCC\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/Library.dir/includes_CXX.rsp -g -o CMakeFiles\\Library.dir\\src\\book.obj -c H:\\CODE\\Codefiled_c++\\Library\\src\\book.cpp",
+  "file": "H:/CODE/Codefiled_c++/Library/src/book.cpp"
 },
 {
   "directory": "H:/CODE/Codefiled_c++/Library/build",

@@ -68,20 +68,20 @@ include CMakeFiles/Library.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Library.dir/flags.make
 
-CMakeFiles/Library.dir/src/boo.obj: CMakeFiles/Library.dir/flags.make
-CMakeFiles/Library.dir/src/boo.obj: CMakeFiles/Library.dir/includes_CXX.rsp
-CMakeFiles/Library.dir/src/boo.obj: ../src/boo.cpp
-CMakeFiles/Library.dir/src/boo.obj: CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\CODE\Codefiled_c++\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Library.dir/src/boo.obj"
-	D:\Vscode_GCC\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Library.dir/src/boo.obj -MF CMakeFiles\Library.dir\src\boo.obj.d -o CMakeFiles\Library.dir\src\boo.obj -c H:\CODE\Codefiled_c++\Library\src\boo.cpp
+CMakeFiles/Library.dir/src/book.obj: CMakeFiles/Library.dir/flags.make
+CMakeFiles/Library.dir/src/book.obj: CMakeFiles/Library.dir/includes_CXX.rsp
+CMakeFiles/Library.dir/src/book.obj: ../src/book.cpp
+CMakeFiles/Library.dir/src/book.obj: CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\CODE\Codefiled_c++\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Library.dir/src/book.obj"
+	D:\Vscode_GCC\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Library.dir/src/book.obj -MF CMakeFiles\Library.dir\src\book.obj.d -o CMakeFiles\Library.dir\src\book.obj -c H:\CODE\Codefiled_c++\Library\src\book.cpp
 
-CMakeFiles/Library.dir/src/boo.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/boo.i"
-	D:\Vscode_GCC\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\CODE\Codefiled_c++\Library\src\boo.cpp > CMakeFiles\Library.dir\src\boo.i
+CMakeFiles/Library.dir/src/book.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/book.i"
+	D:\Vscode_GCC\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\CODE\Codefiled_c++\Library\src\book.cpp > CMakeFiles\Library.dir\src\book.i
 
-CMakeFiles/Library.dir/src/boo.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/boo.s"
-	D:\Vscode_GCC\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\CODE\Codefiled_c++\Library\src\boo.cpp -o CMakeFiles\Library.dir\src\boo.s
+CMakeFiles/Library.dir/src/book.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/book.s"
+	D:\Vscode_GCC\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\CODE\Codefiled_c++\Library\src\book.cpp -o CMakeFiles\Library.dir\src\book.s
 
 CMakeFiles/Library.dir/main.obj: CMakeFiles/Library.dir/flags.make
 CMakeFiles/Library.dir/main.obj: CMakeFiles/Library.dir/includes_CXX.rsp
@@ -100,13 +100,13 @@ CMakeFiles/Library.dir/main.s: cmake_force
 
 # Object files for target Library
 Library_OBJECTS = \
-"CMakeFiles/Library.dir/src/boo.obj" \
+"CMakeFiles/Library.dir/src/book.obj" \
 "CMakeFiles/Library.dir/main.obj"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
 
-Library.exe: CMakeFiles/Library.dir/src/boo.obj
+Library.exe: CMakeFiles/Library.dir/src/book.obj
 Library.exe: CMakeFiles/Library.dir/main.obj
 Library.exe: CMakeFiles/Library.dir/build.make
 Library.exe: CMakeFiles/Library.dir/linklibs.rsp
