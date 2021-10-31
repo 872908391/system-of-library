@@ -1,5 +1,5 @@
-CMakeFiles/Library.dir/src/book.obj: \
- H:\CODE\Codefiled_c++\Library\src\book.cpp \
+CMakeFiles/Library.dir/src/Reader.obj: \
+ H:\CODE\Codefiled_c++\Library\src\Reader.cpp \
  D:/Vscode_GCC/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  D:/Vscode_GCC/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/Vscode_GCC/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -124,5 +124,4 @@ CMakeFiles/Library.dir/src/book.obj: \
  D:/Vscode_GCC/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  D:/Vscode_GCC/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  D:/Vscode_GCC/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
- H:/CODE/Codefiled_c++/Library/include/book.h \
  H:/CODE/Codefiled_c++/Library/include/Reader.h

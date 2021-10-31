@@ -144,6 +144,21 @@ main.s:
 .PHONY : main.s
 
 # target to build an object file
+src/Reader.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/Reader.obj
+.PHONY : src/Reader.obj
+
+# target to preprocess a source file
+src/Reader.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/Reader.i
+.PHONY : src/Reader.i
+
+# target to generate assembly for a file
+src/Reader.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/Reader.s
+.PHONY : src/Reader.s
+
+# target to build an object file
 src/book.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/book.obj
 .PHONY : src/book.obj
@@ -170,6 +185,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/Reader.obj
+	@echo ... src/Reader.i
+	@echo ... src/Reader.s
 	@echo ... src/book.obj
 	@echo ... src/book.i
 	@echo ... src/book.s

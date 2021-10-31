@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Library.dir/main.obj"
   "CMakeFiles/Library.dir/main.obj.d"
+  "CMakeFiles/Library.dir/src/Reader.obj"
+  "CMakeFiles/Library.dir/src/Reader.obj.d"
   "CMakeFiles/Library.dir/src/book.obj"
   "CMakeFiles/Library.dir/src/book.obj.d"
   "Library.exe"

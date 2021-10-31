@@ -1,5 +1,6 @@
 #ifndef _BOOK_H
 #define _BOOK_H
+#include"Reader.h"
 using namespace std;
 class Book{
     public:
@@ -12,7 +13,7 @@ class Book{
     bool s;//是否借阅
 };
  struct Node{// 节点
-    Book data;//数据域
+    Book data;//图书数据域
     Node* next;//指针域
 };
 //链表部分
@@ -29,12 +30,15 @@ class Linklist{
     Node* LastNode(string& name);//找到上一个节点位置
     void deNode(string& name);//删除特定节点
     private:
-    int count;
+    int count;//图书计数
     Node* head;
     Node* rear;
 };
+void Addbook(Linklist &book);//添加图书
+void DeleteBook(Linklist &book);//删除图书
+void ReviseBook(Linklist &book);//修改图书
+void Viewbook(Linklist &book);//查看图书
+void BorrowBook(Linklist &book,ALinklist &reader);//借书
+void ReturnBook(Linklist &book,ALinklist &reader);//还书
+
 # endif
-void Addbook();//添加图书
-//删除图书
-//修改图书
-//查看图书

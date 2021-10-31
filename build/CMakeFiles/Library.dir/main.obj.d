@@ -123,4 +123,6 @@ CMakeFiles/Library.dir/main.obj: H:\CODE\Codefiled_c++\Library\main.cpp \
  D:/Vscode_GCC/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  D:/Vscode_GCC/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  D:/Vscode_GCC/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
- H:/CODE/Codefiled_c++/Library/include/book.h
+ H:/CODE/Codefiled_c++/Library/include/book.h \
+ H:/CODE/Codefiled_c++/Library/include/Reader.h \
+ H:/CODE/Codefiled_c++/Library/include/Reader.h
