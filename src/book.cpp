@@ -119,11 +119,20 @@ Node* Linklist::LastNode(string& name)
 //删除特定节点
 void Linklist::deNode(string& name)
 {
-    Node* last =  LastNode(name);
-    Node* temp = last->next;
-    last->next = last->next->next;
-    delete temp;
-    --count;
+    Node* temp;
+    if(GetNode(name)==head){
+        temp = head;
+        head = head->next;
+        --count;
+        delete temp;
+    }
+    else{
+        Node* last =  LastNode(name);
+        temp = last->next;
+        last->next = last->next->next;
+        delete temp;
+        --count;
+    }
 }
 //清空单链表
 void Linklist::deLinkList()

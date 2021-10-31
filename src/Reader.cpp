@@ -118,11 +118,20 @@ ANode* ALinklist::LastNode(string& name)
 //删除特定节点
 void ALinklist::deNode(string& name)
 {
-    ANode* last =  LastNode(name);
-    ANode* temp = last->next;
-    last->next = last->next->next;
-    delete temp;
-    --count;
+    ANode* temp;
+    if(GetNode(name)==head){
+        temp = head;
+        head = head->next;
+        --count;
+        delete temp;
+    }
+    else{
+        ANode* last =  LastNode(name);
+        temp = last->next;
+        last->next = last->next->next;
+        delete temp;
+        --count;
+    }
 }
 //清空单链表
 void ALinklist::deLinkList()
