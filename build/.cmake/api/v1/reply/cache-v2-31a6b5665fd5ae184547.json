@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/addr2line.exe"
+			"value" : "C:/mingw64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/ar.exe"
+			"value" : "C:/mingw64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BACKWARDS_COMPATIBILITY",
@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "h:/CODE/Codefiled_c++/Library/build"
+			"value" : "g:/Code/C++/system-of-library-master/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "21"
+			"value" : "22"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -131,7 +131,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/cmake-3.21.3-windows-x86_64/cmake-3.21.3-windows-x86_64/bin/cmake.exe"
+			"value" : "C:/Cmake/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -143,7 +143,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/cmake-3.21.3-windows-x86_64/cmake-3.21.3-windows-x86_64/bin/cpack.exe"
+			"value" : "C:/Cmake/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -155,7 +155,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/cmake-3.21.3-windows-x86_64/cmake-3.21.3-windows-x86_64/bin/ctest.exe"
+			"value" : "C:/Cmake/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -167,11 +167,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/x86_64-w64-mingw32-g++.exe"
+			"type" : "STRING",
+			"value" : "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -187,7 +187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/x86_64-w64-mingw32-gcc-ar.exe"
+			"value" : "C:/mingw64/bin/x86_64-w64-mingw32-gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -203,7 +203,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/x86_64-w64-mingw32-gcc-ranlib.exe"
+			"value" : "C:/mingw64/bin/x86_64-w64-mingw32-gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -311,11 +311,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/x86_64-w64-mingw32-gcc.exe"
+			"type" : "STRING",
+			"value" : "C:/mingw64/bin/x86_64-w64-mingw32-gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -331,7 +331,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/x86_64-w64-mingw32-gcc-ar.exe"
+			"value" : "C:/mingw64/bin/x86_64-w64-mingw32-gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -347,7 +347,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/x86_64-w64-mingw32-gcc-ranlib.exe"
+			"value" : "C:/mingw64/bin/x86_64-w64-mingw32-gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -459,7 +459,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/dlltool.exe"
+			"value" : "C:/mingw64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -471,7 +471,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/cmake-3.21.3-windows-x86_64/cmake-3.21.3-windows-x86_64/bin/cmake-gui.exe"
+			"value" : "C:/Cmake/bin/cmake-gui.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "H:/CODE/Codefiled_c++/Library"
+			"value" : "G:/Code/C++/system-of-library-master"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/ld.exe"
+			"value" : "C:/mingw64/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -703,7 +703,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/mingw32-make.exe"
+			"value" : "C:/mingw64/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -799,7 +799,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/nm.exe"
+			"value" : "C:/mingw64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -827,7 +827,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/objcopy.exe"
+			"value" : "C:/mingw64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -843,7 +843,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/objdump.exe"
+			"value" : "C:/mingw64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -907,7 +907,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/ranlib.exe"
+			"value" : "C:/mingw64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -923,7 +923,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/windres.exe"
+			"value" : "C:/mingw64/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1031,7 +1031,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/readelf.exe"
+			"value" : "C:/mingw64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1043,7 +1043,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/cmake-3.21.3-windows-x86_64/cmake-3.21.3-windows-x86_64/share/cmake-3.21"
+			"value" : "C:/Cmake/share/cmake-3.22"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/Vscode_GCC/mingw64/bin/strip.exe"
+			"value" : "C:/mingw64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "H:/CODE/Codefiled_c++/Library/build"
+			"value" : "G:/Code/C++/system-of-library-master/build"
 		},
 		{
 			"name" : "SortMake_IS_TOP_LEVEL",
@@ -1327,7 +1327,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "H:/CODE/Codefiled_c++/Library"
+			"value" : "G:/Code/C++/system-of-library-master"
 		}
 	],
 	"kind" : "cache",

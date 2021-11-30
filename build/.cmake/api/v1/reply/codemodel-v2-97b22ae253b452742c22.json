@@ -35,7 +35,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Library::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Library-Debug-7edb10bf661b12d04566.json",
+					"jsonFile" : "target-Library-Debug-99d008342676eef583c5.json",
 					"name" : "Library",
 					"projectIndex" : 0
 				}
@@ -45,8 +45,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "H:/CODE/Codefiled_c++/Library/build",
-		"source" : "H:/CODE/Codefiled_c++/Library"
+		"build" : "G:/Code/C++/system-of-library-master/build",
+		"source" : "G:/Code/C++/system-of-library-master"
 	},
 	"version" : 
 	{

@@ -1,13 +1,15 @@
 #ifndef _READER_H
 #define _READER_H
+#include<string>
 using namespace std;
+
 //读者类
 class Reader{
     public:
     Reader();
     friend istream& operator>>(istream& in, Reader&Reader);
     friend ostream& operator<<(ostream& out,Reader&Reader);
-    double num; //读者学号
+    long num; //读者学号
     string name; //读者姓名
     bool b;//读者存在
     bool s;//读者借阅
@@ -21,7 +23,7 @@ class ALinklist{
     public:
     ALinklist();
     ~ALinklist();
-    void AddLinkList();//创建添加单链表
+    void AddLinkList(long& num,string& name);//创建添加单链表
     int GetLength();//获取线性表长度
     bool IsEmpty();//判断链表是否为空
     void ShowList();//遍历单链表
@@ -29,6 +31,7 @@ class ALinklist{
     ANode* GetNode(string& name);//查询特定节点
     ANode* LastNode(string& name);//找到上一个节点位置
     void deNode(string& name);//删除特定节点
+    string getName(string& name);//查找名称
     private:
     int count;//读者计数
     ANode* head;

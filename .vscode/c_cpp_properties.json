@@ -3,10 +3,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "${default}",
-                "H:\\CODE\\Codefiled_c++\\Library\\include\\**" //头文件目录
+                "${default}"
             ],
-            "compilerPath": "D:\\Vscode_GCC\\mingw64\\bin\\gcc.exe",
+            "compilerPath": "C:\\mingw64\\bin\\gcc.exe",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64",

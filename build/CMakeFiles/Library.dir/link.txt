@@ -1,3 +1,3 @@
-C:\cmake-3.21.3-windows-x86_64\cmake-3.21.3-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\Library.dir/objects.a
-D:\Vscode_GCC\mingw64\bin\ar.exe qc CMakeFiles\Library.dir/objects.a @CMakeFiles\Library.dir\objects1.rsp
-D:\Vscode_GCC\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\Library.dir/objects.a -Wl,--no-whole-archive -o Library.exe -Wl,--out-implib,libLibrary.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Library.dir\linklibs.rsp
+C:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\Library.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\Library.dir/objects.a @CMakeFiles\Library.dir\objects1.rsp
+C:\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\Library.dir/objects.a -Wl,--no-whole-archive -o Library.exe -Wl,--out-implib,libLibrary.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Library.dir\linklibs.rsp
