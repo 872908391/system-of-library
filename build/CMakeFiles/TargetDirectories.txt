@@ -1,3 +1,0 @@
-G:/Code/C++/system-of-library-master/build/CMakeFiles/Library.dir
-G:/Code/C++/system-of-library-master/build/CMakeFiles/edit_cache.dir
-G:/Code/C++/system-of-library-master/build/CMakeFiles/rebuild_cache.dir
